@@ -5,7 +5,7 @@
 
 	<groupId>io.unreach</groupId>
 	<artifactId>application.all</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>application.all</name>
@@ -14,7 +14,7 @@
 	<parent>
 		<groupId>io.unreach</groupId>
 		<artifactId>all</artifactId>
-		<version>1.0.0</version>
+		<version>1.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
