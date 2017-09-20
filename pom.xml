@@ -4,7 +4,7 @@
 
     <groupId>io.unreach</groupId>
     <artifactId>all</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>The parent project of unreach</description>
@@ -178,7 +178,7 @@
         <url>https://github.com/unreach/parent.all</url>
         <connection>https://github.com/unreach/parent.all.git</connection>
         <developerConnection>scm:git:git@github.com:unreach/parent.all.git</developerConnection>
-      <tag>v1.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <developers>
