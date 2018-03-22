@@ -25,6 +25,8 @@
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
+
+
     <organization>
         <name>Unreach</name>
         <url>http://www.unreach.io</url>
@@ -154,7 +156,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.1</version>
+                        <version>1.5</version>
                         <executions>
                             <execution>
                                 <id>sign-artifacts</id>
@@ -178,12 +180,12 @@
         <url>https://github.com/unreach/parent.all</url>
         <connection>https://github.com/unreach/parent.all.git</connection>
         <developerConnection>scm:git:git@github.com:unreach/parent.all.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
     <developers>
         <developer>
-            <name>JiaoYingJun</name>
+            <name>yingjunjiao</name>
             <id>yingjunjiao</id>
             <email>yingjunjiao (AT) outlook.com</email>
             <roles>
@@ -195,12 +197,12 @@
 
     <distributionManagement>
         <repository>
-            <id>central</id>
+            <id>nexus</id>
             <name>Nexus Release Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
         <snapshotRepository>
-            <id>central</id>
+            <id>nexus</id>
             <name>Nexus Snapshot Repository</name>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
