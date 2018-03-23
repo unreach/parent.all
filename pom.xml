@@ -221,8 +221,8 @@
                   <goal>sign</goal>
                 </goals>
                 <configuration>
-                  <keyname>125C3625E998DABE</keyname>
-                  <passphraseServerId>313E1AD12CC181B75947D314125C3625E998DABE</passphraseServerId>
+                  <keyname>7A1B78BD8CB592E70ABBE661BF6BDFFA5A3A99E4</keyname>
+                  <passphraseServerId>7A1B78BD8CB592E70ABBE661BF6BDFFA5A3A99E4</passphraseServerId>
                 </configuration>
               </execution>
             </executions>
