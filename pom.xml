@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.unreach</groupId>
@@ -28,7 +30,7 @@
     <druid-version>1.1.9</druid-version>
     <okhttp-version>3.9.1</okhttp-version>
     <retrofit-version>2.3.0</retrofit-version>
-    <arguments />
+    <arguments/>
   </properties>
 
 
@@ -155,6 +157,21 @@
   </build>
 
   <profiles>
+    <profile>
+      <id>qingguatang</id>
+      <distributionManagement>
+        <repository>
+          <id>maven</id>
+          <name>Nexus Release Repository</name>
+          <url>https://maven.qingguatang.com/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+          <id>maven</id>
+          <name>Nexus Snapshot Repository</name>
+          <url>https://maven.qingguatang.com/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+      </distributionManagement>
+    </profile>
     <profile>
       <id>oss</id>
       <build>
