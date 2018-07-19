@@ -6,7 +6,7 @@
 
   <groupId>io.unreach</groupId>
   <artifactId>all</artifactId>
-  <version>1.0.5-SNAPSHOT</version>
+  <version>1.0.6</version>
   <packaging>pom</packaging>
   <name>${project.artifactId}</name>
   <description>The parent project of unreach</description>
